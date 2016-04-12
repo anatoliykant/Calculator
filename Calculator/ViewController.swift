@@ -118,6 +118,11 @@ class ViewController: UIViewController {
             currentInput = currentInput / 100
         } else {
             secondOperand = firstOperand * currentInput / 100
+            
+            displayResultLabel.text = "\(secondOperand)"
+            
+            currentInput = secondOperand
+            
         }
     }
     
@@ -130,8 +135,7 @@ class ViewController: UIViewController {
     @IBAction func dotButtonPressed(sender: UIButton) {
         if stillTyping && !dotIsPlaced {
             displayResultLabel.text = displayResultLabel.text! + "."
-            dotIsPlaced = true
-            
+            dotIsPlaced = true            
             
         } else if !stillTyping && !dotIsPlaced {
             displayResultLabel.text = "0."

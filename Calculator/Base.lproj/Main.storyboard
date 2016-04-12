@@ -167,17 +167,6 @@
                                             <action selector="squareRootButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ufp-5k-nlR"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NKj-xK-rDD">
-                                        <rect key="frame" x="450" y="362" width="149" height="89"/>
-                                        <color key="backgroundColor" red="0.5725490196078431" green="0.53333333333333333" blue="0.84313725490196079" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
-                                        <state key="normal" title="=">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="equalitySignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aTW-et-c3G"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xI5-hK-cby">
                                         <rect key="frame" x="151" y="181" width="149" height="90"/>
                                         <color key="backgroundColor" red="0.63921568627450975" green="0.61568627450980395" blue="0.87450980392156863" alpha="1" colorSpace="calibratedRGB"/>
@@ -243,6 +232,17 @@
                                         </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EIx-LZ-1Ex"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NKj-xK-rDD">
+                                        <rect key="frame" x="450" y="362" width="149" height="89"/>
+                                        <color key="backgroundColor" red="0.5725490196078431" green="0.53333333333333333" blue="0.84313725490196079" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
+                                        <state key="normal" title="=">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="equalitySignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aTW-et-c3G"/>
                                         </connections>
                                     </button>
                                 </subviews>
